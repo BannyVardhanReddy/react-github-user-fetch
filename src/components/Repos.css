@@ -1,0 +1,29 @@
+.repos{
+    padding: 1rem;
+    background-color: red;
+}
+
+.repo-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.repo-card{
+    background-color: blue;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.repo-card>*{
+    margin-block-end: 5px;
+    /* background-color: red; */
+}
+
+.repo-card-bottom{
+    display: flex;
+    justify-content: space-between;
+}

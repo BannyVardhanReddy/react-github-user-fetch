@@ -1,0 +1,13 @@
+.profile-container{
+    background-color: red;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+.profile-container img{
+    width: 150px;
+    height: 150px;
+
+    background-color: aqua;
+}
